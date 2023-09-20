@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import React from 'react'; // Import React for JSX usage
+import React from 'react';
 import {
   SearchForm,
   SearchFormInput,
