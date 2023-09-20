@@ -6,7 +6,6 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   overflow-x: hidden;
-  background-color: #f5f5dc;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
