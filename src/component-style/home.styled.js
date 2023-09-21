@@ -4,6 +4,7 @@ export const Title = styled.h2`
   font-size: 26px;
   padding: 10px 50px;
 `;
+
 export const MoviesStyled = styled.ul`
   display: flex;
   justify-content: center;
@@ -13,6 +14,7 @@ export const MoviesStyled = styled.ul`
   gap: 30px;
   padding: 10px 50px;
   list-style-type: none;
+  
   a{
     display: flex;
     text-decoration: none;

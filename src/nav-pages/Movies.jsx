@@ -47,7 +47,7 @@ const Movies = () => {
           ))}
         </MoviesStyled>
       ) : !!query ? (
-        <Message>No movies match your query!</Message>
+        <Message>There is no movie according to your search :( </Message>
       ) : (
         <Message>Try to search your favorite movie :)</Message>
       )}
