@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const Title = styled.h2`
   font-size: 26px;
-  padding: 10px 50px;
+  padding: 10px 0;
 `;
 
 export const MoviesStyled = styled.ul`
@@ -12,7 +12,7 @@ export const MoviesStyled = styled.ul`
   flex-direction: column;
   align-items: center;
   gap: 30px;
-  padding: 10px 50px;
+  padding: 10px 0;
   list-style-type: none;
   
   a{

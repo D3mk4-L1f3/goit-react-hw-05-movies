@@ -8,13 +8,17 @@ export const ReviewList = styled.ul`
   flex-wrap: wrap;
   justify-content: flex-start;
   list-style-type: none;
+
+  & li {
+    
+    overflow-x: hidden;
+  }
 `;
 
 export const ReviewBC = styled.div`
-  max-width: 100%;
   background: #f9f9f9;
   border-left: 10px solid #ccc;
-  padding: 0.5em 10px;
+  padding: 10px;
 
   &::before {
     font-size: 24px;
@@ -23,6 +27,7 @@ export const ReviewBC = styled.div`
   }
   
   & p {
+    min-width: 200px;
     font-size: 24px;
     font-style: italic;
   }

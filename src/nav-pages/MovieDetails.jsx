@@ -49,7 +49,7 @@ const MovieDetails = () => {
         <MoviePoster
           src={
             poster_path
-              ? `https://image.tmdb.org/t/p/w400${poster_path}`
+              ? `https://image.tmdb.org/t/p/w300${poster_path}`
               : 'https://fakeimg.pl/300x450?text=No%20Photo'
           }
           alt={original_title}
