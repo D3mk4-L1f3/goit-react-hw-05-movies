@@ -10,8 +10,7 @@ export const ReviewList = styled.ul`
   list-style-type: none;
 
   & li {
-    
-    overflow-x: hidden;
+    min-width: 300px;
   }
 `;
 
@@ -27,8 +26,9 @@ export const ReviewBC = styled.div`
   }
   
   & p {
-    min-width: 200px;
-    font-size: 24px;
+    white-space: pre-wrap; 
+    overflow: hidden;
+    font-size: 14px;
     font-style: italic;
   }
 `;
