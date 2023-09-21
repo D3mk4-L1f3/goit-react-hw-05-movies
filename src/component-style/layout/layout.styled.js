@@ -6,7 +6,6 @@ export const MainSection = styled.section`
     padding: 0 10px;
     flex-direction: column;
     align-items: center;
-    background-color: #f5f5dc;
 `;
 
 export const Header = styled.div`
