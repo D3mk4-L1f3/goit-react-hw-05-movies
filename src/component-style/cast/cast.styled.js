@@ -3,6 +3,7 @@ import styled from 'styled-components'
 export const CastList = styled.ul`
   display: flex;
   gap: 20px;
+  padding-left: 0;
   align-items: flex-start;
   flex-wrap: wrap;
   justify-content: center;
@@ -10,8 +11,8 @@ export const CastList = styled.ul`
   & li {
     max-width: 400px;
     background-color: #f9f9f9;
-    border-bottom-left-radius: 16px;
-    border-bottom-right-radius: 16px;
+    border-radius: 16px;
+    overflow: hidden;
   }
   & p {
     font-size: 24px;

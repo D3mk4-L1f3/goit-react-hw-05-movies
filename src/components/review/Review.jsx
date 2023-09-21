@@ -42,7 +42,7 @@ const Reviews = () => {
           </li>
         ))
       ) : (
-        <p>We have no reviews available.</p>
+        <p>There is no review yet :(</p>
       )}
     </ReviewList>
   );

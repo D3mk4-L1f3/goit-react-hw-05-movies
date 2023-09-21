@@ -10,10 +10,10 @@ export const ReviewList = styled.ul`
   list-style-type: none;
 `;
 
-export const ReviewBC = styled.blockquote`
+export const ReviewBC = styled.div`
+  max-width: 100%;
   background: #f9f9f9;
   border-left: 10px solid #ccc;
-  margin: 1.5em 10px;
   padding: 0.5em 10px;
 
   &::before {
